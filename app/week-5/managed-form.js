@@ -42,6 +42,7 @@ export default function RegistrationForm() {
         setFullName("");
         setEmail("");
         setBirthDate("");
+	setSubscription("");
         setMessage("");
     }
 
@@ -70,7 +71,7 @@ export default function RegistrationForm() {
             </div>
             <div className="mb-3">
                 <label className="inline-block w-40">Subscription Type: </label>
-                <select onChange={handleSubscriptionChange} className="px-2 py-1 bg-white rounded border border-blue-500 focus:bg-orange-100">
+                <select onChange={handleSubscriptionChange} value={subscription} className="px-2 py-1 bg-white rounded border border-blue-500 focus:bg-orange-100">
                     <option selected disabled value="">--- Please select a Plan ---</option>
                     <option value="free">Free Plan</option>
                     <option value="basic">Basic Plan</option>
