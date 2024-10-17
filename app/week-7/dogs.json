@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Puddles",
+        "breed": "Boxer",
+        "photoUrl": "https://images.dog.ceo/breeds/boxer/n02108089_1690.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Rover",
+        "breed": "Golden Retriever",
+        "photoUrl": "https://images.dog.ceo/breeds/retriever-golden/n02099601_3007.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Bingo",
+        "breed": "Labrador",
+        "photoUrl": "https://images.dog.ceo/breeds/labrador/IMG_4708.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Sparky",
+        "breed": "Husky",
+        "photoUrl": "https://images.dog.ceo/breeds/husky/n02110185_4677.jpg"
+    }
+]
