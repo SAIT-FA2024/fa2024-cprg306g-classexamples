@@ -26,7 +26,6 @@ export default function AdoptionPage() {
     const openForm = () => setFormOpen(true);
     const closeForm = () => setFormOpen(false);
 
-
     return (
         <main>
             {formOpen && <DogForm addNewDogFunc={addNewDog} closeFormFunc={closeForm} />}
@@ -37,12 +36,7 @@ export default function AdoptionPage() {
                     onClick={openForm}
                 >+</button>
             </div>
-            <section className="p-5">
-            <h1 className="text-4xl mb-3 text-center">Dogs for Adoption</h1>
             <DogList dogArray={dogList} removeDogFunc={removeDog} />
-            </section>
-            
-
         </main>
     );
 }
