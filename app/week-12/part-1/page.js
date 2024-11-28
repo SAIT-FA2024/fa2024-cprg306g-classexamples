@@ -12,7 +12,7 @@ export default async function BasicApiCallPage(){
     }
     return(
         <main>
-            <h1>Week 11 Part 1</h1>
+            <h1>Week 12 Part 1</h1>
             <p>{data}</p>
         </main>
     );

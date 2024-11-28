@@ -1,0 +1,38 @@
+
+GET http://localhost:3000/week-13/api/dogs
+
+###
+
+POST http://localhost:3000/week-13/api/dogs HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Sparky",
+    "age": 4
+}
+
+###
+
+GET http://localhost:3000/week-13/api/dogs/1
+
+###
+
+PUT http://localhost:3000/week-13/api/dogs/1 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "John",
+    "age": 5
+}
+
+###
+PATCH http://localhost:3000/week-13/api/dogs/1 HTTP/1.1
+content-type: application/json
+
+{
+    "age": 10
+}
+
+###
+
+DELETE http://localhost:3000/week-13/api/dogs/4
